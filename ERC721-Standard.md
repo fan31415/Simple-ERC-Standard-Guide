@@ -32,9 +32,9 @@
 *  In-game items using system ([Dmarket](https://www.dmarket.io/), [EnjinCoin](https://enjincoin.io/))
 *  Real world assets ([Ubitquity](https://www.ubitquity.io/web/index.html), [Propy]((https://propy.com/)))
 
-##Specification
+## Specification
 ---
-###Basic interface
+### Basic interface
 
 ```js
 interface ERC721 /* is ERC165 */ {
@@ -55,7 +55,7 @@ interface ERC165 {
     function supportsInterface(bytes4 interfaceID) external view returns (bool);
 }
 ```
-###Optional Part
+### Optional Part
 #### Wallet extension
 A wallet/broker/auction application MUST implement the wallet interface if it will accept safe transfers.
 ```

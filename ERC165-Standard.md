@@ -7,7 +7,7 @@
 *  Offcial document : [EIP-165](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md)
 
 
-##Motivation
+## Motivation
 ---
 For some "standard interfaces" like the ERC-20 token interface, it is sometimes useful to query whether a contract supports the interface and if yes, which version of the interface, in order to adapt the way in which the contract is to be interacted with. Specifically for ERC-20, a version identifier has already been proposed. This proposal stadardizes the concept of interfaces and standardizes the identification (naming) of interfaces.
 
